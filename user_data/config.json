@@ -63,7 +63,7 @@
     },
     "telegram": {
         "enabled": true,
-        "token": //,
+        "token": "",
         "chat_id": "450161846"
     },
     "api_server": {
@@ -75,7 +75,7 @@
         "jwt_secret_key": "ed8bf206fcb1a70b62f88365f910b856e23dcb51ed6a2e319197a599cb5b5a2a",
         "CORS_origins": [],
         "username": "freqtrader",
-        "password": "312132Doctor!"
+        "password": ""
     },
     "bot_name": "freqtrade",
     "initial_state": "running",
