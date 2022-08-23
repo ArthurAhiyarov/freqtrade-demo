@@ -79,3 +79,332 @@
 2022-07-31 15:42:51,586 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
 2022-07-31 15:43:51,633 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
 2022-07-31 15:44:51,830 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:09:14,487 - freqtrade.loggers - INFO - Verbosity set to 0
+2022-07-31 18:09:14,488 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2022-07-31 18:09:14,488 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2022-07-31 18:09:14,488 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2022-07-31 18:09:14,489 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2022-07-31 18:09:14,489 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2022-07-31 18:09:14,884 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2022-07-31 18:09:14,885 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/ftx ...
+2022-07-31 18:09:14,886 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2022-07-31 18:09:14,897 - freqtrade.configuration.check_exchange - INFO - Exchange "ftx" is officially supported by the Freqtrade development team.
+2022-07-31 18:09:14,897 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2022-07-31 18:09:14,897 - freqtrade.freqtradebot - INFO - Starting freqtrade 2022.7
+2022-07-31 18:09:14,960 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2022-07-31 18:09:14,960 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2022-07-31 18:09:14,961 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2022-07-31 18:09:14,961 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 100.
+2022-07-31 18:09:14,962 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2022-07-31 18:09:14,962 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2022-07-31 18:09:14,962 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2022-07-31 18:09:14,962 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2022-07-31 18:09:14,962 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2022-07-31 18:09:14,963 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2022-07-31 18:09:14,963 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2022-07-31 18:09:14,963 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2022-07-31 18:09:14,963 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2022-07-31 18:09:14,963 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2022-07-31 18:09:14,964 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'gtc', 'exit': 'gtc'}
+2022-07-31 18:09:14,964 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2022-07-31 18:09:14,964 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 100
+2022-07-31 18:09:14,964 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using protections: []
+2022-07-31 18:09:14,964 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2022-07-31 18:09:14,964 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2022-07-31 18:09:14,964 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2022-07-31 18:09:14,964 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2022-07-31 18:09:14,964 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2022-07-31 18:09:14,965 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2022-07-31 18:09:14,965 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2022-07-31 18:09:14,966 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2022-07-31 18:09:14,966 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2022-07-31 18:09:14,966 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2022-07-31 18:09:14,966 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2022-07-31 18:09:14,982 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2022-07-31 18:09:14,982 - freqtrade.exchange.exchange - INFO - Using CCXT 1.91.29
+2022-07-31 18:09:14,999 - freqtrade.exchange.exchange - INFO - Using Exchange "FTX"
+2022-07-31 18:09:16,595 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Ftx'...
+2022-07-31 18:09:16,745 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-31 18:09:17,110 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2022-07-31 18:09:17,535 - apscheduler.scheduler - INFO - Scheduler started
+2022-07-31 18:09:17,811 - freqtrade.rpc.telegram - INFO - rpc.telegram is listening for following commands: [['status'], ['profit'], ['balance'], ['start'], ['stop'], ['forcesell', 'forceexit', 'fx'], ['forcebuy', 'forcelong'], ['forceshort'], ['trades'], ['delete'], ['performance'], ['buys', 'entries'], ['sells', 'exits'], ['mix_tags'], ['stats'], ['daily'], ['weekly'], ['monthly'], ['count'], ['locks'], ['unlock', 'delete_locks'], ['reload_config', 'reload_conf'], ['show_config', 'show_conf'], ['stopbuy'], ['whitelist'], ['blacklist'], ['blacklist_delete', 'bl_delete'], ['logs'], ['edge'], ['health'], ['help'], ['version']]
+2022-07-31 18:09:17,812 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2022-07-31 18:09:18,881 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 127.0.0.1:8080
+2022-07-31 18:09:18,881 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2022-07-31 18:09:18,892 - uvicorn.error - INFO - Started server process [1]
+2022-07-31 18:09:18,893 - uvicorn.error - INFO - Waiting for application startup.
+2022-07-31 18:09:18,893 - uvicorn.error - INFO - Application startup complete.
+2022-07-31 18:09:18,894 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+2022-07-31 18:09:18,914 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2022-07-31 18:09:19,048 - VolumePairList - INFO - Searching 20 pairs: ['ETH/USDT', 'BTC/USDT', 'SOL/USDT', 'XRP/USDT', 'BNB/USDT', 'FTT/USDT', 'LTC/USDT', 'DOGE/USDT', 'LINK/USDT', 'BCH/USDT', 'UNI/USDT', 'TRX/USDT', 'SRM/USDT', 'BEAR/USDT', 'BULL/USDT', 'AVAX/USDT', 'AAVE/USDT', 'DOT/USDT', 'TRU/USDT', 'YFI/USDT']
+2022-07-31 18:09:19,050 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2022-07-31 18:09:19,050 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2022-07-31 18:09:19,050 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2022-07-31 18:09:19,051 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2022-07-31 18:09:19,051 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2022-07-31 18:09:19,051 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2022-07-31 18:09:19,052 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2022-07-31 18:09:19,052 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2022-07-31 18:09:19,052 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2022-07-31 18:09:19,331 - freqtrade.worker - INFO - Changing state to: RUNNING
+2022-07-31 18:09:19,332 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2022-07-31 18:09:19,438 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `ftx`\n*Stake per trade:* `100 USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2022-07-31 18:09:19,608 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 20 volume pairs.'}]"}
+2022-07-31 18:09:24,785 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:10:24,829 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:11:24,949 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:12:24,997 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:13:25,043 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:14:25,089 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:15:25,209 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:16:25,253 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:17:25,301 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:18:25,349 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:19:25,401 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:20:25,493 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:21:25,541 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:22:25,589 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:23:25,637 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:24:25,690 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:25:25,733 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:26:25,777 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:27:25,829 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:28:25,877 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:29:25,925 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:30:08,327 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-31 18:30:08,741 - freqtrade.freqtradebot - INFO - Long signal found: about create a new trade for BEAR/USDT with stake_amount: 100 ...
+2022-07-31 18:30:09,051 - freqtrade.freqtradebot - INFO - Order #dry_run_buy_1659292208.741993 was created for BEAR/USDT and status is open.
+2022-07-31 18:30:09,192 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-31 18:30:09,192 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': entry, 'buy_tag': None, 'enter_tag': None, 'exchange': 'Ftx', 'pair': 'BEAR/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 0.00016625, 'open_rate': 0.00016625, 'order_type': 'limit', 'stake_amount': 100.0, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 601503.7593984962, 'open_date': datetime.datetime(2022, 7, 31, 18, 30, 9, 52056), 'current_rate': 0.00016625}
+2022-07-31 18:30:11,321 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601503.75939850, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:30:16,356 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601503.75939850, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:30:21,435 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601503.75939850, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:30:25,966 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:30:26,453 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601503.75939850, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:30:31,474 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601503.75939850, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:30:36,388 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601503.75939850, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:30:41,407 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601503.75939850, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:30:41,478 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=1, pair=BEAR/USDT, amount=601503.75939850, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09) [buy]: 0.01998325 USDT - rate: 0.0002
+2022-07-31 18:30:41,478 - freqtrade.persistence.trade_model - INFO - Updating trade (id=1) ...
+2022-07-31 18:30:41,479 - freqtrade.persistence.trade_model - INFO - LIMIT_BUY has been fulfilled for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09).
+2022-07-31 18:30:41,578 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-31 18:30:41,578 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': entry_fill, 'buy_tag': None, 'enter_tag': None, 'exchange': 'Ftx', 'pair': 'BEAR/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 0.00016625, 'open_rate': 0.00016625, 'order_type': None, 'stake_amount': 99.91625, 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 601000.0, 'open_date': datetime.datetime(2022, 7, 31, 18, 30, 9, 52056), 'current_rate': 0.00016625}
+2022-07-31 18:30:41,579 - freqtrade.rpc.telegram - INFO - Notification 'entry_fill' not sent.
+2022-07-31 18:31:26,025 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:32:21,555 - freqtrade.freqtradebot - INFO - Exit for BEAR/USDT detected. Reason: roi
+2022-07-31 18:32:21,562 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-31 18:32:22,047 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': exit, 'trade_id': 1, 'exchange': 'Ftx', 'pair': 'BEAR/USDT', 'leverage': 1.0, 'direction': 'Long', 'gain': 'profit', 'limit': 0.0001754, 'order_type': 'limit', 'amount': 601000.0, 'open_rate': 0.00016625, 'close_rate': None, 'current_rate': 0.0001754, 'profit_amount': 5.45808367, 'profit_ratio': 0.05461566, 'buy_tag': None, 'enter_tag': None, 'sell_reason': 'roi', 'exit_reason': 'roi', 'open_date': datetime.datetime(2022, 7, 31, 18, 30, 9, 52056), 'close_date': datetime.datetime(2022, 7, 31, 18, 32, 22, 47769), 'stake_currency': 'USDT', 'fiat_currency': 'USD'}
+2022-07-31 18:32:22,357 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-31 18:32:26,133 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:32:26,553 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:32:31,581 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:32:36,536 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:32:41,552 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:32:47,188 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:32:51,558 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:32:56,576 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:33:01,558 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:33:06,611 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:33:11,629 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:33:16,647 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:33:21,674 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:33:26,177 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:33:26,580 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:33:31,562 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:33:36,615 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:33:41,632 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:33:46,650 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:33:51,562 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:33:56,583 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:34:01,606 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:34:06,602 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:34:11,636 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:34:16,671 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:34:21,602 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:34:26,225 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:34:26,593 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:34:31,746 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:34:36,724 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:34:41,640 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:34:46,657 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:34:51,777 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:34:56,655 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:35:04,163 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:35:08,828 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:35:11,746 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:35:16,725 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:35:21,780 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:35:26,269 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:35:26,798 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:35:31,719 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:35:36,780 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:35:41,852 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:35:46,709 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:35:51,664 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:35:56,664 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:36:01,672 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:36:06,735 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:36:11,753 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:36:16,770 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:36:21,788 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:36:26,317 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:36:26,806 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:36:31,721 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:36:36,735 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:36:41,718 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:36:46,689 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:36:51,792 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:36:56,707 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:37:01,725 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:37:06,742 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:37:11,874 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:37:16,722 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:37:21,765 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:37:26,361 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:37:26,705 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:37:31,724 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:37:36,746 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:37:41,763 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:37:46,782 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:37:51,799 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:37:56,818 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:38:01,834 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:38:06,894 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:38:11,764 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:38:16,785 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:38:21,905 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:38:26,407 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:38:26,820 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:38:31,852 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:38:36,803 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:38:41,813 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:38:46,769 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:38:51,838 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:38:56,822 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:39:01,842 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:39:06,859 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:39:11,785 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:39:16,894 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:39:21,758 - VolumePairList - INFO - Searching 20 pairs: ['ETH/USDT', 'BTC/USDT', 'SOL/USDT', 'BNB/USDT', 'FTT/USDT', 'XRP/USDT', 'LTC/USDT', 'LINK/USDT', 'DOGE/USDT', 'BCH/USDT', 'UNI/USDT', 'TRX/USDT', 'BULL/USDT', 'SRM/USDT', 'BEAR/USDT', 'AVAX/USDT', 'AAVE/USDT', 'DOT/USDT', 'TRU/USDT', 'YFI/USDT']
+2022-07-31 18:39:22,219 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:39:26,451 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:39:26,828 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:39:31,851 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:39:36,963 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:39:41,880 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:39:46,815 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:39:51,810 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:39:56,831 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:40:03,722 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:40:07,769 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:40:11,828 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:40:16,837 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:40:22,022 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:40:26,494 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:40:26,934 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:40:31,951 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:40:36,870 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:40:41,888 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:40:46,910 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:40:51,923 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:40:56,941 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:41:01,887 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:41:07,029 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:41:11,892 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:41:17,217 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:41:21,926 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:41:26,537 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:41:26,941 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:41:31,962 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:41:36,887 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:41:41,895 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:41:47,015 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:41:51,927 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:41:56,949 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:42:01,962 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:42:06,982 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:42:11,999 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:42:17,013 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:42:21,942 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09)
+2022-07-31 18:42:22,811 - freqtrade.freqtradebot - INFO - Sell order cancelled due to timeout for Trade(id=1, pair=BEAR/USDT, amount=601000.00000000, is_short=False, leverage=1.0, open_rate=0.00016625, open_since=2022-07-31 18:30:09).
+2022-07-31 18:42:22,817 - freqtrade.wallets - INFO - Wallets synced.
+2022-07-31 18:42:22,817 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': exit_cancel, 'trade_id': 1, 'exchange': 'Ftx', 'pair': 'BEAR/USDT', 'leverage': 1.0, 'direction': 'Long', 'gain': 'loss', 'limit': 0, 'order_type': 'limit', 'amount': 601000.0, 'open_rate': 0.00016625, 'current_rate': 0.0001754, 'profit_amount': -99.93623325, 'profit_ratio': -1.0, 'buy_tag': None, 'enter_tag': None, 'sell_reason': None, 'exit_reason': None, 'open_date': datetime.datetime(2022, 7, 31, 18, 30, 9, 52056), 'close_date': datetime.datetime(2022, 7, 31, 18, 42, 22, 817779, tzinfo=datetime.timezone.utc), 'stake_currency': 'USDT', 'fiat_currency': 'USD', 'reason': 'cancelled due to timeout'}
+2022-07-31 18:42:26,582 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:43:26,633 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:44:26,680 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:45:26,729 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:46:26,795 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:47:26,842 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:48:26,900 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:49:26,949 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:50:26,986 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:51:27,035 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:52:27,146 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:53:27,197 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:54:27,245 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:55:27,295 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:56:27,349 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:57:27,393 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:58:27,435 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 18:59:27,474 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:00:12,559 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair LTC/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/LTC/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,560 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair BNB/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/BNB/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,561 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair TRX/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/TRX/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,562 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair SOL/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/SOL/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,563 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair BTC/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/BTC/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,564 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair BEAR/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/BEAR/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,564 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair FTT/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/FTT/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,565 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair UNI/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/UNI/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,566 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair TRU/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/TRU/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,567 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair BCH/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/BCH/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,567 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair ETH/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/ETH/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,568 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair BULL/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/BULL/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,568 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair DOT/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/DOT/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,569 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair XRP/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/XRP/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,570 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair SRM/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/SRM/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,570 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair DOGE/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/DOGE/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,571 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair AAVE/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/AAVE/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,571 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair LINK/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/LINK/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,572 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair AVAX/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/AVAX/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:12,572 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair YFI/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/YFI/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294002". Retrying still for 4 times.
+2022-07-31 19:00:22,598 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair LTC/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/LTC/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,600 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair BNB/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/BNB/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,600 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair TRX/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/TRX/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,601 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair SOL/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/SOL/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,602 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair BTC/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/BTC/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,603 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair BEAR/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/BEAR/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,604 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair FTT/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/FTT/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,604 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair UNI/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/UNI/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,605 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair TRU/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/TRU/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,605 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair BCH/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/BCH/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,606 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair ETH/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/ETH/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,607 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair BULL/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/BULL/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,608 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair DOT/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/DOT/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,608 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair XRP/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/XRP/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,609 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair SRM/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/SRM/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,610 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair DOGE/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/DOGE/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,610 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair AAVE/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/AAVE/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,611 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair LINK/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/LINK/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,611 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair AVAX/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/AVAX/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:22,612 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair YFI/USDT due to ExchangeNotAvailable. Message: ftx GET https://ftx.com/api/markets/YFI/USDT/candles?resolution=300&limit=1500&start_time=1658844300&end_time=1659294012". Retrying still for 3 times.
+2022-07-31 19:00:29,779 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:01:29,829 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:02:29,873 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:03:29,925 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:04:30,017 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:05:30,062 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:06:30,141 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:07:30,181 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:08:30,226 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:09:25,361 - VolumePairList - INFO - Searching 20 pairs: ['ETH/USDT', 'BTC/USDT', 'SOL/USDT', 'BNB/USDT', 'FTT/USDT', 'XRP/USDT', 'LTC/USDT', 'LINK/USDT', 'DOGE/USDT', 'UNI/USDT', 'BCH/USDT', 'TRX/USDT', 'SRM/USDT', 'BULL/USDT', 'BEAR/USDT', 'AVAX/USDT', 'AAVE/USDT', 'DOT/USDT', 'TRU/USDT', 'YFI/USDT']
+2022-07-31 19:09:30,277 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:10:30,322 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:11:30,369 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:12:30,435 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:13:30,487 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:14:30,545 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:15:30,589 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:16:30,637 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:17:30,688 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:18:30,734 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
+2022-07-31 19:19:30,877 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.7', state='RUNNING'
